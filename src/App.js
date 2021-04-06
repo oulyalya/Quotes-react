@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+
+import AppHeader from '../AppHeader/AppHeader';
+// import PostAddForm from '../PostAddForm/PostAddForm';
+// import PostList from '../PostList/PostList';
+// import PostListItem from '../PostListItem/PostListItem';
+// import PostStatusFilter from '../PostStatusFilter/PostStatusFilter';
+// import SearchPanel from '../SearchPanel/SearchPanel';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div>
+    <AppHeader />
+    // </div>
   );
 }
 
